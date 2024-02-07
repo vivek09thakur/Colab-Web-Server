@@ -10,5 +10,5 @@ class ColabResponseFetcher:
         return response.text
     
 if __name__ == '__main__':
-    fetcher = ColabResponseFetcher('http://927e-35-204-93-188.ngrok-free.app/receive_data')
+    fetcher = ColabResponseFetcher('http://a1f0-34-34-27-89.ngrok-free.app/receive_data')
     print(fetcher.fetch('hello world'))
